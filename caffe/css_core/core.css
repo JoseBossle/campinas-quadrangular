@@ -223,6 +223,7 @@
     display: grid;
     gap: var(--gutter);
     grid-template-columns: repeat(auto-fit, minmax(min(300px, 100%), 1fr));
+    text-align: center;
   }
 
   .u-grid--2, .u-grid--3, .u-grid--4 {

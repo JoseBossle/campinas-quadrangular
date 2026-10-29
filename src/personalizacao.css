@@ -23,7 +23,7 @@ body{
 }
 
 
-.header-container{
+.header-content{
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -43,8 +43,10 @@ body{
  h1{
     font-size: var(--fs-h1);
      color: var(--color-ieq-purple);
-     text-align: center;
+     text-align: left;
      margin-bottom: var(--sp-md);
      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
-     margin-top: var(--sp-sm);
+    
  }
+
+ 
