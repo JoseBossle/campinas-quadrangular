@@ -49,6 +49,25 @@ body{
     
  }
 
+ .horario-cultos{
+    background-color: var(--color-ieq-purple);
+    
+ }
+
+ .h4-horario{
+    color: var(--color-ieq-gold);
+    font-size: var(--fs-h4);
+    margin-bottom: var(--sp-sm);
+ }
+
+ .p-horario{
+    color: var(--color-ieq-gold);
+    font-size: var(--fs-p);
+    margin-bottom: var(--sp-sm);
+ }
+
+ 
+
  .main-footer{
     background-color:#0476D9;
  }
