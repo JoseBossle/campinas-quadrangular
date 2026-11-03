@@ -53,4 +53,10 @@ body{
     background-color:#0476D9;
  }
 
+ .nossas-redes{
+     display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+ }
+
  
