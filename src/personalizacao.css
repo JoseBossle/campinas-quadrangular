@@ -10,8 +10,30 @@
 
 
 body{
-    background-color:var( --color-ieq-gold);
+    background-color:var( --color-ieq-purple);
 }
+
+.main-header {
+    width: 100%;
+    min-height: clamp(280px, 42vw, 620px);
+
+    background-color: var(--color-ieq-purple);
+    background-image:
+        linear-gradient(
+            rgba(0, 0, 0, 0.35),
+            rgba(0, 0, 0, 0.35)
+        ),
+        url('../../../assets/imgs/header.png');
+
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    z-index: 0;
+    position: relative;
+    }
+
+
+
 
 .section-container{
     background-color: var(--color-bg-surface);
@@ -22,42 +44,58 @@ body{
    
 }
 
-.main-header{
+
    
+
+
+.header-content {
+    display: grid;
+    grid-template-columns: 150px 1fr 150px;
+    align-items: center;
+    width: 100%;
+    padding-inline: 1rem;
+}
+
+.header-logo {
+    width: 150px;
+    height: 150px;
+}
+
+.img-logo {
+    width: clamp(50px, 12vw, 150px);
+    height: auto;
+}
+
+.header-content h1 {
+    grid-column: 2;
+    margin: 0;
+    font-size: clamp(2rem, 5vw, 6.25rem);
+    line-height: 1.1;
+    text-align: center;
+    overflow-wrap: break-word;
+    color:#fff;
 }
 
 
-.header-content{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    background-image: url('/assets/imgs/header_fooetr.png');
-    background-size:cover;
-   background-position: center;
-    background-repeat: no-repeat;}
-    
-   
+@media (max-width: 768px) {
+    .header-content {
+        grid-template-columns: 80px 1fr 80px;
+    }
 
+    .header-logo {
+        width: 80px;
+        height: auto;
+    }
 
-.header-logo {
-   width:150px;
-   height:150px;}
+    .img-logo {
+        width: clamp(50px, 12vw, 80px);
+    }
 
- .img-logo{
-    width: clamp(50px, 20vw, 150px);
- } 
-
-
-
- h1{
-    font-size: var(--fs-h1);
-     color: var(--color-ieq-purple);
-     text-align: left;
-     margin-bottom: var(--sp-md);
-     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
-    
- }
+    .header-content h1 {
+        font-size: clamp(1.5rem, 5vw, 2.5rem);
+    }
+}
+ 
 
  .horario-cultos{
     background-color: var(--color-ieq-purple);
