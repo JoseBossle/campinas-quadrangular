@@ -24,7 +24,11 @@ body{
             rgba(0, 0, 0, 0.35),
             rgba(0, 0, 0, 0.35)
         ),
+<<<<<<< HEAD
         url('../assets/imgs/header.png');
+=======
+        url(/assets/imgs/header.png);
+>>>>>>> 52f8122 ("problemas na imagem do header")
 
     background-size: cover;
     background-position: center center;
