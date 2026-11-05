@@ -23,7 +23,7 @@ body{
             rgba(0, 0, 0, 0.35),
             rgba(0, 0, 0, 0.35)
         ),
-       url('../../../assets/imgs/header.png');
+     url('/campinas-quadrangular/src/assets/imgs/header.png');
 
     background-size: cover;
     background-position: center center;
