@@ -19,20 +19,12 @@ body{
 
     background-color: var(--color-ieq-purple);
 
-    background-image:
-        linear-gradient(
-            rgba(0, 0, 0, 0.35),
-            rgba(0, 0, 0, 0.35)
-        ),
-
-       
-        url(/assets/imgs/header.png);
-      
-
+  background-image: 
+        linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), 
+        url('../images/sua-imagem.jpg'); /* Ajuste o caminho para a sua pasta */
     background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-
+    background-position: center;
+   background-repeat: no-repeat;
     z-index: 0;
     position: relative;
 }
