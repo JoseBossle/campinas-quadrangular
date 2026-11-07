@@ -73,6 +73,19 @@ body{
 }
 
 
+.card-group{
+  background-color:#D3D3D3;
+}
+
+.card-video{
+  background-color:#818589;
+}
+
+.btn-video{
+  background-color: var(--color-ieq-red);
+  color:#fff;
+}
+
 @media (max-width: 768px) {
     .header-content {
         grid-template-columns: 80px 1fr 80px;
