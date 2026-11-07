@@ -21,7 +21,7 @@ body{
 
   background-image: 
         linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), 
-     url('../assets/images/bg-header.jpg'); /* Ajuste o caminho para a sua pasta */
+     url('/assets/imgs/header.png'); /* Ajuste o caminho para a sua pasta */
     background-size: cover;
     background-position: center;
    background-repeat: no-repeat;
@@ -86,6 +86,14 @@ body{
   color:#fff;
 }
 
+.card-event{
+  background-color:#D3D3D3;
+}
+
+.location{
+  background-color: var(--color-ieq-gold);
+}
+
 @media (max-width: 768px) {
     .header-content {
         grid-template-columns: 80px 1fr 80px;
@@ -129,6 +137,7 @@ body{
   .main-footer {
     width: 100%;
     padding: 2rem 1.5rem;
+    background-color: var(--color-ieq-purple);
   }
 
   .footer-container {
@@ -224,6 +233,12 @@ components {
 
 .location{
   background-color: var(--color-ieq-gold);
+}
+
+.p-footer{
+  color:#fff;
+  font-size: var(--fs-p);
+  margin-bottom: var(--sp-sm);
 }
  
 
